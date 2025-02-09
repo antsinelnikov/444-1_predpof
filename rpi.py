@@ -79,7 +79,6 @@ while True:
     # Чтение данных с кнопок джойстика
     pygame.event.pump()  # Обновление событий джойстика
 
-    # Пример: кнопки крестовины (индексы могут отличаться в зависимости от джойстика)
     button_up = joystick.get_button(11)  # Вверх
     button_down = joystick.get_button(12)  # Вниз
     button_left = joystick.get_button(13)  # Влево
